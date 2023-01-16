@@ -61,11 +61,15 @@
 
 
 
-number = int(input("정수 입력 : "))
+number = int(input("input number : "))
 counts = 0
 
-k = 1
-while k <= 10:
-    if number % k == 0
-        counts= counts + 1
+for k in range(2, number):
+   if counts % k == 0:
+    counts = counts + 1
+
+if counts:
+    print(f'{number} is prime number!')
+else:
+    print(f'{number} is NOT prime number.')
 
