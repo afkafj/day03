@@ -1,8 +1,7 @@
 
 
-Guess_me = 7
-number = 1
-while True:
+Guess_me = 5
+for number in range(10):
     if number < Guess_me:
         print("'too low'")
     elif number == Guess_me:
